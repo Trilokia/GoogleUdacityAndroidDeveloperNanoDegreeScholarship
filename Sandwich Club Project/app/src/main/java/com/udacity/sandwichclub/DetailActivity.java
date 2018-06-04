@@ -25,7 +25,8 @@ public class DetailActivity extends AppCompatActivity {
     public static final String EXTRA_POSITION = "extra_position";
     private static final int DEFAULT_POSITION = -1;
 
-    private ImageView mingredientsIv;
+    private ImageView mIngredientsIv
+;
     private TextView mOverviewLabel;
     private TextView mDescriptionLabel;
     private TextView mIngredientLabel;
@@ -42,7 +43,8 @@ public class DetailActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
 
-        mingredientsIv = findViewById(R.id.image_iv);
+        mIngredientsIv
+ = findViewById(R.id.image_iv);
         mOverviewLabel = findViewById(R.id.ove_lab);
         mDescriptionLabel = findViewById(R.id.desc_lab);
         mIngredientLabel = findViewById(R.id.ing_lab);
@@ -80,7 +82,8 @@ public class DetailActivity extends AppCompatActivity {
         populateUI(sandwich);
         Picasso.with(this)
                 .load(sandwich.getImage())
-                .into(mingredientsIv);
+                .into(mIngredientsIv
+);
 
         setTitle(sandwich.getMainName());
     }
