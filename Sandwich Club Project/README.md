@@ -27,8 +27,8 @@ produces a Sandwich Object that can be used to populate the UI that you designed
 
 # Screenshots
 <p align="center">
-  <img width="300" height="460" src="https://github.com/Trilokia/GoogleUdacityAndroidDeveloperNanoDegreeScholarship/blob/master/Sandwich%20Club%20Project/Screenshots/1.png?raw=true">
-  <img width="300" height="460" src="https://github.com/Trilokia/GoogleUdacityAndroidDeveloperNanoDegreeScholarship/blob/master/Sandwich%20Club%20Project/Screenshots/2.png?raw=true">
-  <img width="300" height="460" src="https://github.com/Trilokia/GoogleUdacityAndroidDeveloperNanoDegreeScholarship/blob/master/Sandwich%20Club%20Project/Screenshots/3.png?raw=true">
-   <img width="300" height="460" src="https://github.com/Trilokia/GoogleUdacityAndroidDeveloperNanoDegreeScholarship/blob/master/Sandwich%20Club%20Project/Screenshots/4.png?raw=true">
+  <img width="300" height="460" src="https://github.com/Trilokia/GoogleUdacityAndroidDeveloperNanoDegreeScholarship/blob/master/Sandwich%20Club%20Project/screenshots/1.png?raw=true">
+  <img width="300" height="460" src="https://github.com/Trilokia/GoogleUdacityAndroidDeveloperNanoDegreeScholarship/blob/master/Sandwich%20Club%20Project/screenshots/2.png?raw=true">
+  <img width="300" height="460" src="https://github.com/Trilokia/GoogleUdacityAndroidDeveloperNanoDegreeScholarship/blob/master/Sandwich%20Club%20Project/screenshots/3.png?raw=true">
+   <img width="300" height="460" src="https://github.com/Trilokia/GoogleUdacityAndroidDeveloperNanoDegreeScholarship/blob/master/Sandwich%20Club%20Project/screenshots/4.png?raw=true">
 </p>
