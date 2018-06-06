@@ -41,7 +41,7 @@ public class JsonUtils {
 
             String description = jObj.getString(_DESCRIPTION);
 
-            String image = jObj.getString(_IMAGE);
+            String image = jObj.optString(_IMAGE);
 
             JSONArray ingredients = jObj.getJSONArray(_INGREDIENTS);
             List<String> ingredientsList = new ArrayList<>(ingredients.length());

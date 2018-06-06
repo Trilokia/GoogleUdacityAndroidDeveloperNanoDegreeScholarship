@@ -1,41 +1,67 @@
 package com.udacity.sandwichclub;
 
 import android.content.Intent;
+import android.graphics.Bitmap;
 import android.graphics.Color;
+import android.graphics.drawable.BitmapDrawable;
 import android.os.Bundle;
+import android.support.v4.graphics.drawable.RoundedBitmapDrawable;
+import android.support.v4.graphics.drawable.RoundedBitmapDrawableFactory;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.squareup.picasso.Callback;
 import com.squareup.picasso.Picasso;
 import com.udacity.sandwichclub.model.Sandwich;
 import com.udacity.sandwichclub.utils.JsonUtils;
+
+import butterknife.BindView;
+import butterknife.ButterKnife;
 
 public class DetailActivity extends AppCompatActivity {
 
 
     /* NOTE:
-    * go_xxx refers to disabling textView & labels
-    * vis_xxx refers to enabling textView & labels
-    * xxx_action refers to Onclick View
-    * */
+     * go_xxx refers to disabling textView & labels
+     * vis_xxx refers to enabling textView & labels
+     * xxx_action refers to Onclick View
+     * */
 
     public static final String EXTRA_POSITION = "extra_position";
     private static final int DEFAULT_POSITION = -1;
 
-    private ImageView mIngredientsIv
-;
-    private TextView mOverviewLabel;
-    private TextView mDescriptionLabel;
-    private TextView mIngredientLabel;
-    private TextView mAlsoKnownTv;
-    private TextView mAlsoKnownLabel;
-    private TextView mOriginTv;
-    private TextView mOriginLabel;
-    private TextView mDescriptionTv;
-    private TextView mIngredientTv;
+    @BindView(R.id.image_iv)
+    ImageView mIngredientsIv;
+
+    @BindView(R.id.ove_lab)
+    TextView mOverviewLabel;
+
+    @BindView(R.id.desc_lab)
+    TextView mDescriptionLabel;
+
+    @BindView(R.id.ing_lab)
+    TextView mIngredientLabel;
+
+    @BindView(R.id.also_known_tv)
+    TextView mAlsoKnownTv;
+
+    @BindView(R.id.alsoKnownAs_label)
+    TextView mAlsoKnownLabel;
+
+    @BindView(R.id.origin_tv)
+    TextView mOriginTv;
+
+    @BindView(R.id.placeOfOrigin_label)
+    TextView mOriginLabel;
+
+    @BindView(R.id.description_tv)
+    TextView mDescriptionTv;
+
+    @BindView(R.id.ingredients_tv)
+    TextView mIngredientTv;
 
 
     @Override
@@ -43,19 +69,9 @@ public class DetailActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
 
-        mIngredientsIv
- = findViewById(R.id.image_iv);
-        mOverviewLabel = findViewById(R.id.ove_lab);
-        mDescriptionLabel = findViewById(R.id.desc_lab);
-        mIngredientLabel = findViewById(R.id.ing_lab);
-        mAlsoKnownTv = findViewById(R.id.also_known_tv);
-        mAlsoKnownLabel = findViewById(R.id.alsoKnownAs_label);
-        mOriginTv = findViewById(R.id.origin_tv);
-        mOriginLabel = findViewById(R.id.placeOfOrigin_label);
-        mDescriptionTv = findViewById(R.id.description_tv);
-        mIngredientTv = findViewById(R.id.ingredients_tv);
-
-
+        // bind the view using butterknife
+        ButterKnife.bind(this);
+        
         init();
 
         Intent intent = getIntent();
@@ -79,11 +95,21 @@ public class DetailActivity extends AppCompatActivity {
             return;
         }
 
+
         populateUI(sandwich);
         Picasso.with(this)
                 .load(sandwich.getImage())
-                .into(mIngredientsIv
-);
+                .into(mIngredientsIv, new Callback() {
+                    @Override
+                    public void onSuccess() {
+                        //Yeah :)
+                    }
+
+                    @Override
+                    public void onError() {
+                        mIngredientsIv.setImageResource(R.mipmap.error);
+                    }
+                });
 
         setTitle(sandwich.getMainName());
     }
@@ -94,7 +120,7 @@ public class DetailActivity extends AppCompatActivity {
     }
 
     private void populateUI(Sandwich sandwich) {
-    //* Also known as
+        //* Also known as
         if (sandwich.getAlsoKnownAs() != null && sandwich.getAlsoKnownAs().size() > 0) {
             StringBuilder stringBuilder = new StringBuilder();
             stringBuilder.append(sandwich.getAlsoKnownAs().get(0));
@@ -107,14 +133,14 @@ public class DetailActivity extends AppCompatActivity {
             mAlsoKnownTv.setText(getString(R.string.detail_error_message));
         }
 
-    //* Origin
+        //* Origin
         if (sandwich.getPlaceOfOrigin().isEmpty()) {
             mOriginTv.setText(getString(R.string.detail_error_message));
         } else {
             mOriginTv.setText(sandwich.getPlaceOfOrigin());
         }
 
-    //* Description
+        //* Description
         if (sandwich.getDescription().isEmpty()) {
             mDescriptionTv.setText(getString(R.string.detail_error_message));
         } else {
@@ -122,7 +148,7 @@ public class DetailActivity extends AppCompatActivity {
 
         }
 
-    //*Ingredients
+        //*Ingredients
         if (sandwich.getIngredients() != null && sandwich.getIngredients().size() > 0) {
             StringBuilder stringBuilder = new StringBuilder();
             int index = 1;
