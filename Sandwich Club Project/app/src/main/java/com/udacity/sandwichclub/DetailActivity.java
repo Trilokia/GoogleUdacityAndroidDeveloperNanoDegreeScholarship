@@ -1,13 +1,10 @@
 package com.udacity.sandwichclub;
 
 import android.content.Intent;
-import android.graphics.Bitmap;
 import android.graphics.Color;
-import android.graphics.drawable.BitmapDrawable;
 import android.os.Bundle;
-import android.support.v4.graphics.drawable.RoundedBitmapDrawable;
-import android.support.v4.graphics.drawable.RoundedBitmapDrawableFactory;
 import android.support.v7.app.AppCompatActivity;
+import android.text.TextUtils;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -71,7 +68,7 @@ public class DetailActivity extends AppCompatActivity {
 
         // bind the view using butterknife
         ButterKnife.bind(this);
-        
+
         init();
 
         Intent intent = getIntent();
@@ -94,7 +91,6 @@ public class DetailActivity extends AppCompatActivity {
             closeOnError();
             return;
         }
-
 
         populateUI(sandwich);
         Picasso.with(this)
@@ -122,13 +118,12 @@ public class DetailActivity extends AppCompatActivity {
     private void populateUI(Sandwich sandwich) {
         //* Also known as
         if (sandwich.getAlsoKnownAs() != null && sandwich.getAlsoKnownAs().size() > 0) {
-            StringBuilder stringBuilder = new StringBuilder();
-            stringBuilder.append(sandwich.getAlsoKnownAs().get(0));
-            for (int i = 1; i < sandwich.getAlsoKnownAs().size(); i++) {
-                stringBuilder.append(", ");
-                stringBuilder.append(sandwich.getAlsoKnownAs().get(i));
+
+            String str = null;
+            for (int i = 1; i <= sandwich.getAlsoKnownAs().size(); i++) {
+                str = TextUtils.join(", ", sandwich.getAlsoKnownAs());
             }
-            mAlsoKnownTv.setText(stringBuilder.toString());
+            mAlsoKnownTv.setText(str);
         } else {
             mAlsoKnownTv.setText(getString(R.string.detail_error_message));
         }
@@ -150,77 +145,69 @@ public class DetailActivity extends AppCompatActivity {
 
         //*Ingredients
         if (sandwich.getIngredients() != null && sandwich.getIngredients().size() > 0) {
-            StringBuilder stringBuilder = new StringBuilder();
-            int index = 1;
-
-            stringBuilder.append(index);
-            stringBuilder.append(". ");
-            stringBuilder.append(sandwich.getIngredients().get(0));
-
-            for (int i = 1; i < sandwich.getIngredients().size(); i++) {
-                stringBuilder.append("\n");
-                stringBuilder.append(++index);
-                stringBuilder.append(". ");
-                stringBuilder.append(sandwich.getIngredients().get(i));
+            String str = null;
+            for (int i = 1; i <= sandwich.getIngredients().size(); i++) {
+                str = TextUtils.join(", \n", sandwich.getIngredients());
             }
-            mIngredientTv.setText(stringBuilder.toString());
+            mIngredientTv.setText(str);
         }
 
 
     }
 
-    public void over_action(View view) {
-        go_Description();
-        go_Ing();
-        vis_Overview();
+    public void overAction(View view) {
+        descriptionGone();
+        ingredientGo();
+        overviewVisible();
     }
 
-    public void desc_action(View view) {
-        go_Overview();
-        go_Ing();
-        vis_Description();
+    public void descAction(View view) {
+        overviewGone();
+        ingredientGo();
+        descriptionVisible();
     }
 
-    public void ing_action(View view) {
-        go_Overview();
-        go_Description();
-        vis_Ing();
+    public void ingAction(View view) {
+        overviewGone();
+        descriptionGone();
+        ingredientVisible();
     }
 
-    private void vis_Overview() {
+    private void overviewVisible() {
         init();
         mAlsoKnownLabel.setVisibility(View.VISIBLE);
         mAlsoKnownTv.setVisibility(View.VISIBLE);
         mOriginLabel.setVisibility(View.VISIBLE);
         mOriginTv.setVisibility(View.VISIBLE);
+
     }
 
-    private void go_Overview() {
+    private void overviewGone() {
         mAlsoKnownLabel.setVisibility(View.GONE);
         mAlsoKnownTv.setVisibility(View.GONE);
         mOriginLabel.setVisibility(View.GONE);
         mOriginTv.setVisibility(View.GONE);
     }
 
-    private void vis_Description() {
+    private void descriptionVisible() {
         mOverviewLabel.setTextColor(Color.GRAY);
         mDescriptionLabel.setTextColor(Color.WHITE);
         mIngredientLabel.setTextColor(Color.GRAY);
         mDescriptionTv.setVisibility(View.VISIBLE);
     }
 
-    private void go_Description() {
+    private void descriptionGone() {
         mDescriptionTv.setVisibility(View.GONE);
     }
 
-    private void vis_Ing() {
+    private void ingredientVisible() {
         mOverviewLabel.setTextColor(Color.GRAY);
         mDescriptionLabel.setTextColor(Color.GRAY);
         mIngredientLabel.setTextColor(Color.WHITE);
         mIngredientTv.setVisibility(View.VISIBLE);
     }
 
-    private void go_Ing() {
+    private void ingredientGo() {
         mIngredientTv.setVisibility(View.GONE);
     }
 

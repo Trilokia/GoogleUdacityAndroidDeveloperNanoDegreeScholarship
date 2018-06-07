@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="activity_horizontal_margin">16dp</dimen>
-    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="tv_size">22sp</dimen>
+    <dimen name="tv_padding">10dp</dimen>
+    <dimen name="lbl_padding">8dp</dimen>
 </resources>
