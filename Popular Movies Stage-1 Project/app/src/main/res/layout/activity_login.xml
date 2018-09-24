@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/LoginActivityLayout"
+    tools:context=".LoginActivity">
+
+    <EditText
+        android:id="@+id/imdb_Key"
+        style="@style/EditTextStyle"
+        android:hint="@string/imdb_key_hint"/>
+
+    <Button
+        android:id="@+id/continue_button"
+        style="@style/LoginButton"
+        android:text="@string/login_continue" />
+
+    <ImageView
+        android:id="@+id/imdbPowered_image"
+        style="@style/PoweredByImage"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/login_text"
+        style="@style/LoginText"
+        android:text="@string/login_tagline" />
+
+    <TextView
+        android:id="@+id/textView3"
+      style="@style/LoginHeader"
+        android:text="@string/name" />
+
+    <TextView
+        android:id="@+id/textView4"
+       style="@style/LoginSubHeader"
+        android:text="@string/stage" />
+</RelativeLayout>

@@ -1,11 +1,188 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <!-- LoginActivity Styles -->
+    <style name="LoginHeader">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">110dp</item>
+        <item name="android:textColor">@color/colorPrimaryAccent</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">35sp</item>
+    </style>
+
+    <style name="LoginSubHeader">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@+id/textView3</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+
+
+    <style name="LoginActivityLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+    </style>
+
+
+    <style name="EditTextStyle">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_above">@+id/continue_button</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:ems">10</item>
+        <item name="android:gravity">center</item>
+        <item name="android:inputType">text</item>
+    </style>
+
+    <style name="LoginText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginBottom">119dp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
+    </style>
+
+    <style name="LoginButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginBottom">168dp</item>
+        <item name="android:background">@null</item>
+
+    </style>
+
+    <style name="PoweredByImage">
+        <item name="android:layout_width">109dp</item>
+        <item name="android:layout_height">58dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+
+    <style name="MainActivityLayout">
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="RecyclerViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/recycler_view_padding</item>
+    </style>
+
+    <!-- MoviePreview Styles -->
+    <style name="MoviePreviewParent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="MoviePreviewLayout">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">@dimen/movie_preview_layout_padding</item>
+
+    </style>
+
+    <style name="MoviePosterView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <!-- MovieDetails Styles -->
+    <style name="MovieDetailsLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">@dimen/movie_parent_padding</item>
+    </style>
+
+    <style name="MovieDetailsCard" parent="CardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/movie_details_card_margin</item>
+        <item name="android:layout_marginTop">@dimen/movie_details_card_margin</item>
+
+        <item name="cardCornerRadius">@dimen/card_corner_radius</item>
+        <item name="cardElevation">@dimen/card_elevation</item>
+    </style>
+
+    <style name="CardLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="CardHeaderText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/card_text_padding</item>
+        <item name="android:textSize">@dimen/card_header_text_size</item>
+    </style>
+
+    <style name="CardHeaderDivider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/card_header_divider_height</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginLeft">@dimen/card_divider_margin</item>
+        <item name="android:layout_marginRight">@dimen/card_divider_margin</item>
+
+        <item name="android:background">@color/colorPrimaryAccent</item>
+    </style>
+
+    <style name="CardBodyText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/card_text_padding</item>
+
+        <item name="android:textSize">@dimen/card_body_text_size</item>
+    </style>
+
+    <style name="CardBodyDivider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/card_body_divider_height</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginLeft">@dimen/card_body_divider_marginLeft</item>
+        <item name="android:layout_marginRight">@dimen/card_divider_margin</item>
+
+        <item name="android:background">@color/colorPrimaryAccent</item>
+    </style>
+
+    <style name="CardImageStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:padding">@dimen/card_image_padding</item>
     </style>
 
 </resources>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MovieDetails">
+
+    <LinearLayout style="@style/MovieDetailsLayout">
+
+        <android.support.v7.widget.CardView style="@style/MovieDetailsCard">
+
+            <LinearLayout style="@style/CardLayout">
+
+                <TextView
+                    style="@style/CardHeaderText"
+
+                    android:text="@string/poster_header" />
+
+                <View style="@style/CardHeaderDivider" />
+
+                <ImageView
+                    android:id="@+id/movie_details_poster"
+                    android:src="@drawable/sample_poster_medium"
+                    style="@style/CardImageStyle" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView style="@style/MovieDetailsCard">
+
+            <LinearLayout style="@style/CardLayout">
+
+                <TextView
+                    style="@style/CardHeaderText"
+                    android:text="@string/details_header" />
+
+                <View style="@style/CardHeaderDivider" />
+
+                <TextView
+                    android:id="@+id/movie_details_title"
+                    style="@style/CardBodyText"
+                    android:text="@string/details_title_base" />
+
+                <View style="@style/CardBodyDivider" />
+
+                <TextView
+                    android:id="@+id/movie_details_release_date"
+                    style="@style/CardBodyText"
+                    android:text="@string/details_release_base" />
+
+                <View style="@style/CardBodyDivider" />
+
+                <TextView
+                    android:id="@+id/movie_details_vote_average"
+                    style="@style/CardBodyText"
+                    android:text="@string/details_vote_base" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+        <android.support.v7.widget.CardView style="@style/MovieDetailsCard">
+
+            <LinearLayout style="@style/CardLayout">
+
+                <TextView
+                    style="@style/CardHeaderText"
+                    android:text="@string/overview_header" />
+
+                <View style="@style/CardHeaderDivider" />
+
+                <TextView
+                    android:id="@+id/movie_details_overview"
+                    style="@style/CardBodyText"
+                    android:text="@string/overview_body" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+</ScrollView>

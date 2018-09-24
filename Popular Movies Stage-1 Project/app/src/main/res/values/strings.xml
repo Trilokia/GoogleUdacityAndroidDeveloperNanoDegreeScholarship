@@ -1,3 +1,31 @@
 <resources>
     <string name="app_name">Popular Movies-1</string>
+
+    <!-- Login Strings -->
+    <string name="name">Popular Movies App</string>
+    <string name="stage">Stage 1</string>
+    <string name="imdb_key_hint">IMDB key</string>
+    <string name="login_continue">Continue</string>
+    <string name="login_tagline">Key is free! Get it from IMDB</string>
+
+    <!-- Sort Menu Strings -->
+    <string name="sort_menu_title">Sort By</string>
+    <string name="most_popular">Most popular</string>
+    <string name="highest_rating">Highest rating</string>
+
+    <!-- Movie Details Strings -->
+    <string name="overview_header">Overview</string>
+    <string name="overview_body">No overview available</string>
+    <string name="details_header">Details</string>
+    <string name="details_title_base">Full Title:\u0020</string>
+    <string name="details_release_base">Release Date:\u0020</string>
+    <string name="details_vote_base">Vote Average:\u0020</string>
+    <string name="poster_header">Poster</string>
+
+    <!-- Misc Strings -->
+    <string name="intent_movie_extra">passedMovie</string>
+    <string name="loading">Loading..</string>
+    <string name="sort">Sort By</string>
+
+
 </resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Style Dimensions -->
+    <dimen name="recycler_view_padding">6dp</dimen>
+    <dimen name="movie_preview_layout_padding">4dp</dimen>
+
+    <dimen name="movie_parent_padding">10dp</dimen>
+    <dimen name="movie_details_card_margin">5dp</dimen>
+
+    <dimen name="card_text_padding">10dp</dimen>
+    <dimen name="card_header_divider_height">2dp</dimen>
+    <dimen name="card_divider_margin">5dp</dimen>
+    <dimen name="card_body_divider_height">1dp</dimen>
+    <dimen name="card_body_divider_marginLeft">25dp</dimen>
+    <dimen name="card_image_padding">10dp</dimen>
+
+    <!-- Text Dimensions -->
+    <dimen name="movie_title_text_size">16sp</dimen>
+    <dimen name="card_header_text_size">34sp</dimen>
+    <dimen name="card_body_text_size">16sp</dimen>
+
+    <!-- Card Dimensions -->
+    <dimen name="card_corner_radius">16dp</dimen>
+    <dimen name="card_elevation">8dp</dimen>
+</resources>

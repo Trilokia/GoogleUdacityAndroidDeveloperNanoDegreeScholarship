@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     style="@style/MainActivityLayout"
-    tools:context="inc.trilokia.popularmovies_1.MainActivity">
+    tools:context="com.morosphere.android.watchlist.MainActivity">
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/movie_list"
