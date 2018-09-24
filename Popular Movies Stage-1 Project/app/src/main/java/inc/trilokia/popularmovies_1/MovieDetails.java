@@ -52,7 +52,7 @@ public class MovieDetails extends AppCompatActivity {
     private void loadMovieData(Movie movie) {
         setTitle(movie.getTitle());
 
-        //Glide: Loads images
+        // Loads images
         Picasso.get().load(movie.getPosterPath(Movie.POSTER_LARGE)).into(ivPoster);
 
         tvOverview.setText(movie.getOverview());
