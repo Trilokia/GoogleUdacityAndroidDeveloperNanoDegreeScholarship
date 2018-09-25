@@ -6,3 +6,4 @@ This Repository contains all the android projects work, included in the Android 
 ## Projects:
 
 1. Sandwich Club
+2. Popular Movies App(Stage 1)

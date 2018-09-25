@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity implements MovieAdapter.Movi
         //TODO: Allow user to modify language in later versions (Yet to implement)
         languageParam = NetworkUtils.LANGUAGE_EN;
 
-        loadMovies(NetworkUtils.SORT_BY_POPULARITY, languageParam);
+        loadMovies(NetworkUtils.SORT_BY_POPULARITY);
 
         RecyclerView.LayoutManager layoutManager = new GridLayoutManager(getApplicationContext(), 2);
         rvMovieList.setLayoutManager(layoutManager);
@@ -84,10 +84,10 @@ public class MainActivity extends AppCompatActivity implements MovieAdapter.Movi
      * Creates a new AsyncTask to load movies based on sort and language parameters.
      *
      * @param sortParam The desired sort parameter
-     * @param languageParam The desired language parameter.
+     *  languageParam The desired language parameter.
      */
-    private void loadMovies(String sortParam, String languageParam) {
-        new FetchMovieData().execute(NetworkUtils.buildUrl(sortParam, languageParam));
+    private void loadMovies(String sortParam) {
+        new FetchMovieData().execute(NetworkUtils.buildUrl(sortParam));
     }
 
     /**
@@ -176,11 +176,11 @@ public class MainActivity extends AppCompatActivity implements MovieAdapter.Movi
                     if (which == 0) {
                         Toast.makeText(MainActivity.this, R.string.loading, Toast.LENGTH_SHORT).show();
 
-                        loadMovies(NetworkUtils.SORT_BY_POPULARITY, languageParam);
+                        loadMovies(NetworkUtils.SORT_BY_POPULARITY);
                     } else if (which == 1) {
                         Toast.makeText(MainActivity.this, R.string.loading, Toast.LENGTH_SHORT).show();
 
-                        loadMovies(NetworkUtils.SORT_BY_RATING, languageParam);
+                        loadMovies(NetworkUtils.SORT_BY_RATING);
                     }
                 }
             });

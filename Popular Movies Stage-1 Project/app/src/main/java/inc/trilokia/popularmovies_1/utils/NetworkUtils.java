@@ -17,16 +17,22 @@ import static inc.trilokia.popularmovies_1.LoginActivity.API_KEY;
 public final class NetworkUtils {
 
     //API parameter constants
-    private static final String BASE_URL = "https://api.themoviedb.org/3/discover/movie",
+    private static final String BASE_URL = "https://api.themoviedb.org/3/movie/",
             API_KEY_PARAM = "api_key",
-            SORT_PARAM = "sort_by",
+
+
+    /*
+    * TODO: (Left for stage 2) implement advance sorting
+    *
+    * */
+    SORT_PARAM = "sort_by",
             LANGUAGE_PARAM = "language",
             ADULT_PARAM = "include_adult",
             VOTE_COUNT_PARAM = "vote_count.gte";
 
     //Public API parameter values
-    public static final String SORT_BY_POPULARITY = "popularity.desc",
-            SORT_BY_RATING = "vote_average.desc",
+    public static final String SORT_BY_POPULARITY = "popular",
+            SORT_BY_RATING = "top_rated",
             LANGUAGE_EN = "en";
 
     //Private API parameter values
@@ -39,13 +45,15 @@ public final class NetworkUtils {
      * @param sortParam The desired sort order
      * @return URL used to call the API.
      */
-    public static URL buildUrl(String sortParam, String languageParam) {
+    public static URL buildUrl(String sortParam) {
         Uri builtUri = Uri.parse(BASE_URL).buildUpon()
+                .appendPath(sortParam)
                 .appendQueryParameter(API_KEY_PARAM, API_KEY)
-                .appendQueryParameter(LANGUAGE_PARAM, languageParam)
-                .appendQueryParameter(SORT_PARAM, sortParam)
-                .appendQueryParameter(ADULT_PARAM, ADULT_INCLUDE)
-                .appendQueryParameter(VOTE_COUNT_PARAM, "500")
+
+        //TODO: (Left for stage 2) implement advance sorting
+                //.appendQueryParameter(LANGUAGE_PARAM, languageParam)
+                //.appendQueryParameter(ADULT_PARAM, ADULT_INCLUDE)
+                //.appendQueryParameter(VOTE_COUNT_PARAM, "500")
                 .build();
 
         URL url = null;
