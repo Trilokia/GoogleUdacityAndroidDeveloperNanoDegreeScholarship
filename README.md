@@ -39,9 +39,13 @@
 ## Projects
 
 *This Repository contains all the android projects work, included in the** Android Developer Nanodegree***
+
 [Sandwich Club: Demo Project](https://github.com/Trilokia/GoogleUdacityAndroidDeveloperNanoDegreeScholarship/tree/master/Sandwich%20Club%20Project/"Sandwich Club Project")
+
 [Popular Movies: Stage-1 Project](https://github.com/Trilokia/GoogleUdacityAndroidDeveloperNanoDegreeScholarship/tree/master/Popular%20Movies%20Stage-1%20Project/"Popular Movies Stage-1 Project")
+
 [Popular Movies: Stage-2 Project](https://github.com/Trilokia/GoogleUdacityAndroidDeveloperNanoDegreeScholarship/tree/master/Popular%20Movies%20Stage-2%20Project/ "Popular Movies Stage-2 Project")
+
 [More project is coming soon](http://localhost/ "link title")
 
 
