@@ -1,0 +1,424 @@
+<resources>
+    <!-- Base Application Theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimaryAccent</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppThemeOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="searchViewStyle">@style/SearchViewStyle</item>
+        <item name="android:textColorHighlight">@color/colorAccent</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+    </style>
+
+    <style name="SearchViewStyle" parent="Widget.AppCompat.SearchView.ActionBar">
+        <item name="defaultQueryHint">@string/search_view_query_hint</item>
+    </style>
+
+    <!-- Base Styles -->
+    <style name="LinearLayoutVerticalBase">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="LinearLayoutHorizontalBase" parent="LinearLayoutVerticalBase">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="RelativeLayoutBase">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="AppBarBase">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="ToolbarBase">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:theme">@style/AppThemeOverlay</item>
+    </style>
+
+    <style name="NestedScrollViewBase">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="layout_behavior">@string/appbar_scrolling_view_behavior</item>
+    </style>
+
+    <style name="NavigationViewBase">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">start</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+    <style name="CardViewBase">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="PosterViewBase">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="TextViewPrimaryBase">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/primary_text_size</item>
+    </style>
+
+    <style name="TextViewSupportingBase" parent="TextViewPrimaryBase">
+        <item name="android:textSize">@dimen/supporting_text_size</item>
+    </style>
+
+    <style name="TextViewNotificationBase" parent="TextViewSupportingBase">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <!-- LoginActivity Styles -->
+    <style name="LoginHeader">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">110dp</item>
+        <item name="android:textColor">@color/colorPrimaryAccent</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">35sp</item>
+    </style>
+
+    <style name="LoginSubHeader">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@+id/textView3</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+
+    <style name="LoginActivityLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+    </style>
+
+
+    <style name="EditTextStyle">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_above">@+id/continue_button</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:ems">10</item>
+        <item name="android:gravity">center</item>
+        <item name="android:inputType">text</item>
+    </style>
+
+    <style name="LoginText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginBottom">119dp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
+    </style>
+
+    <style name="LoginButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginBottom">168dp</item>
+        <item name="android:background">@null</item>
+
+    </style>
+
+    <style name="PoweredByImage">
+        <item name="android:layout_width">109dp</item>
+        <item name="android:layout_height">58dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+
+    <!-- activity_movie_details Layout Styles -->
+    <style name="DetailsActivityCoordinatorLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="DetailsActivityAppBar" parent="AppBarBase">
+        <item name="android:layout_height">@dimen/details_activity_app_bar_height</item>
+    </style>
+
+    <style name="DetailsActivityCollapsingToolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:minHeight">?attr/actionBarSize</item>
+        <item name="contentScrim">@color/colorPrimary</item>
+        <item name="layout_scrollFlags">scroll|exitUntilCollapsed</item>
+    </style>
+
+    <style name="DetailsActivityBackdrop">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="layout_collapseMode">parallax</item>
+    </style>
+
+    <style name="DetailsActivityToolbar" parent="ToolbarBase">
+        <item name="layout_collapseMode">pin</item>
+    </style>
+
+    <style name="DetailsActivityDetailsContainer" parent="LinearLayoutVerticalBase">
+        <item name="android:paddingTop">@dimen/details_activity_details_container_paddingTop</item>
+    </style>
+
+    <style name="DetailsActivityFavouriteButton">
+        <item name="android:layout_width">@dimen/details_activity_favourite_button_diameter</item>
+        <item name="android:layout_height">@dimen/details_activity_favourite_button_diameter</item>
+        <item name="android:layout_margin">@dimen/details_activity_favourite_button_margin</item>
+        <item name="layout_anchorGravity">bottom|end</item>
+
+        <item name="android:src">@drawable/ic_favourite_empty</item>
+    </style>
+
+    <!-- activity_movie_list Layout Styles -->
+    <style name="ListActivityListContainer" parent="LinearLayoutVerticalBase">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="ListActivityDetailsNotification" parent="TextViewNotificationBase">
+        <item name="android:text">@string/notification_details_base</item>
+    </style>
+
+    <style name="ListActivityDetailsScrollView" parent="NestedScrollViewBase">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="CardLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="CardHeaderText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/cardview_light_background</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/card_text_padding</item>
+        <item name="android:textSize">@dimen/card_header_text_size</item>
+    </style>
+
+    <style name="CardHeaderDivider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/card_header_divider_height</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginLeft">@dimen/card_divider_margin</item>
+        <item name="android:layout_marginRight">@dimen/card_divider_margin</item>
+
+        <item name="android:background">@color/colorPrimaryAccent</item>
+    </style>
+
+    <style name="CardBodyText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/card_text_padding</item>
+
+        <item name="android:textSize">@dimen/card_body_text_size</item>
+    </style>
+
+    <style name="CardBodyDivider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/card_body_divider_height</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginLeft">@dimen/card_body_divider_marginLeft</item>
+        <item name="android:layout_marginRight">@dimen/card_divider_margin</item>
+
+        <item name="android:background">@color/colorAccent</item>
+    </style>
+
+
+    <style name="MovieDetailsCard" parent="CardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/movie_details_card_margin</item>
+        <item name="android:layout_marginTop">@dimen/movie_details_card_margin</item>
+
+        <item name="cardCornerRadius">@dimen/card_corner_radius</item>
+        <item name="cardElevation">@dimen/card_elevation</item>
+    </style>
+
+
+
+  <!--  <style name="CardImageStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:padding">@dimen/card_image_padding</item>
+    </style>
+
+    <style name="MovieDetailsCard2" parent="CardView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/movie_details_card_margin</item>
+        <item name="android:layout_marginTop">@dimen/movie_details_card_margin</item>
+
+        <item name="cardCornerRadius">@dimen/card_corner_radius</item>
+        <item name="cardElevation">@dimen/card_elevation</item>
+    </style>
+    <!- fragment_movie_details Layout Styles -
+    <style name="DetailsFragmentCardView" parent="CardViewBase">
+        <item name="android:layout_marginBottom">@dimen/details_fragment_card_view_marginBottom
+        </item>
+        <item name="android:elevation">@dimen/details_fragment_card_elevation</item>
+    </style>
+
+    <style name="DetailsFragmentDetailsGuideline">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="DetailsFragmentDetailsPoster" parent="LinearLayoutVerticalBase">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:paddingRight">@dimen/details_fragment_details_poster_paddingRight</item>
+    </style>
+
+    <style name="DetailsFragmentDetailsLayout">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:paddingBottom">@dimen/details_fragment_details_paddingBottom</item>
+        <item name="android:paddingLeft">@dimen/details_fragment_details_paddingLeft</item>
+        <item name="android:paddingRight">@dimen/details_fragment_details_paddingRight</item>
+        <item name="android:paddingTop">@dimen/details_fragment_details_paddingTop</item>
+    </style>
+
+    <style name="DetailsFragmentCardTextPrimary" parent="TextViewPrimaryBase">
+        <item name="android:paddingBottom">@dimen/details_fragment_card_text_paddingBottom</item>
+        <item name="android:paddingLeft">@dimen/details_fragment_card_text_paddingLeft</item>
+        <item name="android:paddingRight">@dimen/details_fragment_card_text_paddingRight</item>
+        <item name="android:paddingTop">@dimen/details_fragment_card_text_paddingTop</item>
+    </style>
+
+    <style name="DetailsFragmentCardTextSupporting" parent="TextViewSupportingBase">
+        <item name="android:paddingBottom">@dimen/details_fragment_card_text_paddingBottom</item>
+        <item name="android:paddingLeft">@dimen/details_fragment_card_text_paddingLeft</item>
+        <item name="android:paddingRight">@dimen/details_fragment_card_text_paddingRight</item>
+    </style>
+
+
+
+    <style name="DetailsFragmentTrailersLayout" parent="LinearLayoutHorizontalBase">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">@dimen/details_fragment_trailers_paddingBottom</item>
+    </style>
+-->
+
+    <style name="DetailsFragmentTrailersScrollView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/details_fragment_trailers_paddingLeft</item>
+        <item name="android:paddingRight">@dimen/details_fragment_trailers_paddingRight</item>
+    </style>
+    <!-- item_movie_list Layout Styles -->
+    <style name="ListItemCardView" parent="CardViewBase">
+        <item name="android:layout_margin">@dimen/list_item_card_margin</item>
+        <item name="cardCornerRadius">@dimen/list_item_card_corner_radius</item>
+    </style>
+
+    <style name="ListItemTitleLayout" parent="TextViewPrimaryBase">
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="ListItemBarLayout" parent="LinearLayoutHorizontalBase">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="ListItemGenresLayout" parent="LinearLayoutVerticalBase">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="ListItemGenresTextSupporting" parent="TextViewSupportingBase">
+        <item name="android:ellipsize">end</item>
+        <item name="android:lines">1</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:padding">@dimen/list_item_genres_text_padding</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="ListItemFavouriteButton">
+        <item name="android:layout_width">@dimen/list_item_favourite_button_diameter</item>
+        <item name="android:layout_height">@dimen/list_item_favourite_button_diameter</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:padding">@dimen/list_item_favourite_button_padding</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:src">@drawable/ic_favourite_empty</item>
+    </style>
+
+    <!-- item_movie_review Layout Styles -->
+    <style name="ReviewItemLayout" parent="LinearLayoutVerticalBase">
+        <item name="android:paddingBottom">@dimen/review_item_layout_padding</item>
+        <item name="android:paddingLeft">@dimen/review_item_layout_padding</item>
+        <item name="android:paddingRight">@dimen/review_item_layout_padding</item>
+    </style>
+
+    <style name="ReviewItemTextPrimary" parent="TextViewPrimaryBase">
+        <item name="android:paddingBottom">@dimen/review_item_text_primary_paddingBottom</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ReviewItemTextSupporting" parent="TextViewSupportingBase">
+        <item name="android:paddingBottom">@dimen/review_item_text_supporting_paddingBottom</item>
+    </style>
+
+    <style name="ReviewItemDivider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/review_item_divider_height</item>
+        <item name="android:background">@android:color/darker_gray</item>
+    </style>
+
+    <!-- item_movie_trailer Layout Styles -->
+    <style name="TrailerItemTextSupporting" parent="TextViewSupportingBase">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:drawableLeft">@drawable/ic_play_trailer</item>
+        <item name="android:drawablePadding">@dimen/trailer_item_text_supporting_drawablePadding
+        </item>
+        <item name="android:paddingRight">@dimen/trailer_item_text_supporting_paddingRight</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ListItemCardView">
+
+    <RelativeLayout style="@style/RelativeLayoutBase">
+
+        <inc.trilokia.popularmovies_2.ui.views.PosterView
+            android:id="@+id/list_item_poster"
+            style="@style/PosterViewBase" />
+
+        <TextView
+            android:id="@+id/list_item_title"
+            style="@style/ListItemTitleLayout"
+            android:layout_alignBottom="@id/list_item_poster"
+            android:layout_alignTop="@id/list_item_poster" />
+
+        <LinearLayout
+            android:id="@+id/list_item_bar"
+            style="@style/ListItemBarLayout"
+            android:layout_below="@id/list_item_poster">
+
+            <LinearLayout style="@style/ListItemGenresLayout">
+
+                <TextView
+                    android:id="@+id/list_item_genres"
+                    android:textSize="12sp"
+                    style="@style/ListItemGenresTextSupporting" />
+
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/list_item_favourite_button"
+                style="@style/ListItemFavouriteButton" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

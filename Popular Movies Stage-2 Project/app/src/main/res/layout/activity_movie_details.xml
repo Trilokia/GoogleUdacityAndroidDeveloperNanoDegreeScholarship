@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorPrimaryLight"
+    style="@style/DetailsActivityCoordinatorLayout"
+
+    tools:context=".ui.activities.MovieDetailsActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/details_activity_app_bar"
+        style="@style/DetailsActivityAppBar"
+        android:layout_height="280dp">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/details_activity_collapsing_toolbar"
+            style="@style/DetailsActivityCollapsingToolbar"
+            android:background="@color/colorPrimaryLight">
+
+            <ImageView
+                android:id="@+id/details_activity_backdrop"
+                style="@style/DetailsActivityBackdrop" />
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/details_activity_toolbar"
+                style="@style/DetailsActivityToolbar" />
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/nestedScrollView"
+        style="@style/NestedScrollViewBase">
+
+        <LinearLayout
+            android:id="@+id/details_activity_details_container"
+            style="@style/DetailsActivityDetailsContainer"
+            android:orientation="vertical" />
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/details_activity_favourite_button"
+        style="@style/DetailsActivityFavouriteButton"
+        app:backgroundTint="@android:color/background_light"
+        app:layout_anchor="@id/details_activity_app_bar" />
+
+</android.support.design.widget.CoordinatorLayout>

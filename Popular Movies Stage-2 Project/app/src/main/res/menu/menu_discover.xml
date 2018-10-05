@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/discover_menu_action_sort"
+        android:icon="@drawable/ic_sort"
+        android:title="@string/pref_discover_sort_label"
+        app:showAsAction="ifRoom" />
+
+</menu>

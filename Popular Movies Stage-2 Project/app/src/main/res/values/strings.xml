@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name" translatable="false">Popular Movies 2</string>
+
+
+    <!-- Login Strings -->
+    <string name="name">Popular Movies App</string>
+    <string name="stage">Stage 2</string>
+    <string name="imdb_key_hint">IMDB key</string>
+    <string name="login_continue">Continue</string>
+    <string name="login_tagline">Key is free! Get it from IMDB</string>
+    <string name="loading">Loading..</string>
+    <!-- SharedPreference Strings -->
+    <string name="pref_first_run_key" translatable="false">firstRun</string>
+
+    <string name="pref_navigation_key" translatable="false">navigation</string>
+    <string name="pref_navigation_discover_value" translatable="false">discover</string>
+    <string name="pref_navigation_search_value" translatable="false">search</string>
+    <string name="pref_navigation_favourites_value" translatable="false">favourites</string>
+
+    <string name="pref_discover_sort_label">Discover</string>
+    <string name="pref_discover_sort_popular_label">Most Popular</string>
+    <string name="pref_discover_sort_rating_label">Highest Rating</string>
+    <string name="pref_discover_sort_key" translatable="false">discoverSort</string>
+    <string name="pref_discover_sort_popular_value" translatable="false">popular</string>
+    <string name="pref_discover_sort_rating_value" translatable="false">top_rated</string>
+
+    <string name="pref_favourites_sort_label">Sort Favourites By</string>
+    <string name="pref_favourites_sort_recent_label">Recently Added</string>
+    <string name="pref_favourites_sort_title_label">Title</string>
+    <string name="pref_favourites_sort_release_label">Release Date</string>
+    <string name="pref_favourites_sort_key" translatable="false">favouritesSort</string>
+    <string name="pref_favourites_sort_recent_value" translatable="false">_id</string>
+    <string name="pref_favourites_sort_title_value" translatable="false">title</string>
+    <string name="pref_favourites_sort_release_value" translatable="false">releaseDate</string>
+
+    <string name="pref_language_label">Preferred Language</string>
+    <string name="pref_language_english_label">English</string>
+    <string name="pref_language_hindi_label">Hindi</string>
+    <string name="pref_language_key" translatable="false">language</string>
+    <string name="pref_language_english_value" translatable="false">en</string>
+    <string name="pref_language_hindi_value" translatable="false">hi</string>
+
+    <string name="pref_updated_toast">Preferences Saved</string>
+
+    <!-- Action Strings -->
+    <string name="action_discover_label">Discover</string>
+    <string name="action_search_label">Search</string>
+    <string name="action_favourites_label">Favourites</string>
+    <string name="action_settings_label">Settings</string>
+
+    <!-- Args Strings -->
+    <string name="args_selected_movie" translatable="false">selectedMovie</string>
+    <string name="args_movie_extra" translatable="false">passedMovie</string>
+    <string name="args_retained_fragment_tag" translatable="false">retainedFragment</string>
+
+    <!-- Notification Strings -->
+    <string name="notification_list_base">No movies found :(</string>
+    <string name="notification_list_loading">Loading\u2026</string>
+    <string name="notification_list_search">Search for a movie</string>
+    <string name="notification_list_favourites">No favourites :(</string>
+    <string name="notification_details_base">Select a movie</string>
+
+    <!-- fragment_movie_details Strings -->
+    <string name="details_fragment_details_vote_average_unavailable">Not yet rated</string>
+    <string name="details_fragment_details_vote_fraction">/10</string>
+    <string name="details_fragment_overview_header">Overview</string>
+    <string name="details_fragment_overview_body">No overview available</string>
+    <string name="details_fragment_trailer_header">Trailers</string>
+    <string name="details_fragment_reviews_header">Reviews</string>
+
+    <!-- Movie Details Strings -->
+    <string name="overview_header">Overview</string>
+    <string name="overview_body">No overview available</string>
+    <string name="details_header">Details</string>
+    <string name="details_title_base">Full Title:\u0020</string>
+    <string name="details_release_base">Release Date:\u0020</string>
+    <string name="details_vote_base">Vote Average:\u0020</string>
+    <string name="poster_header">Poster</string>
+
+    <!-- Misc Strings -->
+    <string name="favourite_added_message">Added to Favourites</string>
+    <string name="favourite_removed_message">Removed from Favourites</string>
+    <string name="genre_unknown">Unknown</string>
+    <string name="search_view_query_hint">Search Movies\u2026</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_user_login">UserLoginActivity</string>
+</resources>

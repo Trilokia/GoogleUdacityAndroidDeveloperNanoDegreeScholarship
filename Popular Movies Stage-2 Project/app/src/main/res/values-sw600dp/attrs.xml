@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LoadingView">
+        <attr name="loading_renderer">
+            <!--Scenery-->
+            <enum name="DayNightLoadingRenderer" value="8"/>
+        </attr>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/LinearLayoutVerticalBase"
+    android:background="@color/colorPrimaryLight"
+    tools:context=".ui.activities.SettingsActivity">
+
+    <android.support.design.widget.AppBarLayout style="@style/AppBarBase">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/settings_activity_toolbar"
+            style="@style/ToolbarBase" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:id="@+id/settings_activity_preference_container"
+        style="@style/LinearLayoutVerticalBase" />
+
+</LinearLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base Dimens -->
+    <dimen name="primary_text_size">24sp</dimen>
+    <dimen name="supporting_text_size">14sp</dimen>
+
+    <!-- activity_movie_details Layout Dimens -->
+    <dimen name="details_activity_app_bar_height">180dp</dimen>
+    <dimen name="details_activity_favourite_button_diameter">52dp</dimen>
+    <dimen name="details_activity_favourite_button_margin">16dp</dimen>
+
+    <!-- activity_movie_list Layout Dimens -->
+    <dimen name="details_activity_details_container_paddingTop">4dp</dimen>
+
+    <!-- fragment_movie_details Layout Dimens -->
+    <dimen name="details_fragment_card_view_marginBottom">8dp</dimen>
+    <dimen name="details_fragment_card_elevation">8dp</dimen>
+    <dimen name="details_fragment_poster_paddingRight">8dp</dimen>
+
+    <dimen name="details_fragment_details_poster_paddingRight">8dp</dimen>
+
+    <dimen name="details_fragment_details_paddingBottom">16dp</dimen>
+    <dimen name="details_fragment_details_paddingLeft">8dp</dimen>
+    <dimen name="details_fragment_details_paddingRight">8dp</dimen>
+    <dimen name="details_fragment_details_paddingTop">24dp</dimen>
+
+    <dimen name="details_fragment_card_text_paddingBottom">16dp</dimen>
+    <dimen name="details_fragment_card_text_paddingLeft">16dp</dimen>
+    <dimen name="details_fragment_card_text_paddingRight">16dp</dimen>
+    <dimen name="details_fragment_card_text_paddingTop">24dp</dimen>
+
+    <dimen name="details_fragment_trailers_paddingBottom">16dp</dimen>
+    <dimen name="details_fragment_trailers_paddingLeft">16dp</dimen>
+    <dimen name="details_fragment_trailers_paddingRight">16dp</dimen>
+
+    <!-- item_movie_list Layout Dimens -->
+    <dimen name="list_item_card_margin">4dp</dimen>
+    <dimen name="list_item_card_corner_radius">4dp</dimen>
+
+    <dimen name="list_item_genres_text_padding">16dp</dimen>
+
+    <dimen name="list_item_favourite_button_diameter">40dp</dimen>
+    <dimen name="list_item_favourite_button_padding">8dp</dimen>
+
+    <!-- item_movie_review Layout Dimens -->
+    <dimen name="review_item_layout_padding">16dp</dimen>
+
+    <dimen name="review_item_text_primary_paddingBottom">8dp</dimen>
+    <dimen name="review_item_text_supporting_paddingBottom">16dp</dimen>
+
+    <dimen name="review_item_divider_height">1dp</dimen>
+
+    <!-- Style Dimensions -->
+    <dimen name="recycler_view_padding">6dp</dimen>
+    <dimen name="movie_preview_layout_padding">4dp</dimen>
+
+    <dimen name="movie_parent_padding">10dp</dimen>
+    <dimen name="movie_details_card_margin">5dp</dimen>
+
+    <dimen name="card_text_padding">10dp</dimen>
+    <dimen name="card_header_divider_height">2dp</dimen>
+    <dimen name="card_divider_margin">5dp</dimen>
+    <dimen name="card_body_divider_height">1dp</dimen>
+    <dimen name="card_body_divider_marginLeft">25dp</dimen>
+    <dimen name="card_image_padding">10dp</dimen>
+
+    <!-- Text Dimensions -->
+    <dimen name="movie_title_text_size">16sp</dimen>
+    <dimen name="card_header_text_size">34sp</dimen>
+    <dimen name="card_body_text_size">16sp</dimen>
+
+    <!-- Card Dimensions -->
+    <dimen name="card_corner_radius">16dp</dimen>
+    <dimen name="card_elevation">8dp</dimen>
+
+    <!-- item_movie_trailer Layout Dimens -->
+    <dimen name="trailer_item_text_supporting_drawablePadding">4dp</dimen>
+    <dimen name="trailer_item_text_supporting_paddingRight">8dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>

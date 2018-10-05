@@ -1,0 +1,103 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimaryLight"
+    style="@style/LinearLayoutVerticalBase">
+
+    <android.support.v7.widget.CardView
+
+        android:id="@+id/details_fragment_details_card"
+        style="@style/MovieDetailsCard">
+                <LinearLayout style="@style/CardLayout">
+                    <TextView
+                        android:id="@+id/movie_details_title"
+                        style="@style/CardHeaderText"
+                        android:text="@string/details_title_base" />
+
+                    <View style="@style/CardHeaderDivider" />
+                    <TextView
+                        android:id="@+id/details_fragment_details_genres"
+                        style="@style/CardBodyText"
+                        />
+                    <View style="@style/CardBodyDivider" />
+                    <TextView
+                        android:id="@+id/movie_details_release_date"
+                        style="@style/CardBodyText"
+                        android:text="@string/details_release_base" />
+
+                    <View style="@style/CardBodyDivider" />
+
+                    <TextView
+                        android:id="@+id/movie_details_vote_average"
+                        style="@style/CardBodyText"
+                        android:text="@string/details_vote_base" />
+                   <!-- <TextView
+                        android:id="@+id/details_fragment_details_vote_fraction"
+                        style="@style/CardBodyText"
+                        android:text="@string/details_fragment_details_vote_fraction"</TextView>-->
+                     />
+
+                </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/details_fragment_overview_card"
+        style="@style/MovieDetailsCard">
+
+        <LinearLayout style="@style/CardLayout">
+
+            <TextView
+                style="@style/CardHeaderText"
+                android:text="@string/details_fragment_overview_header" />
+
+            <View style="@style/CardHeaderDivider" />
+            <TextView
+                android:id="@+id/details_fragment_overview"
+                style="@style/CardBodyText"
+                android:text="@string/details_fragment_overview_body" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/details_fragment_trailers_card"
+        style="@style/MovieDetailsCard">
+
+        <LinearLayout style="@style/CardLayout">
+
+            <TextView
+                style="@style/CardHeaderText"
+                android:text="@string/details_fragment_trailer_header" />
+            <View style="@style/CardHeaderDivider" />
+            <HorizontalScrollView style="@style/DetailsFragmentTrailersScrollView">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:id="@+id/details_fragment_trailers_layout"
+                    style="@style/CardBodyText" />
+
+            </HorizontalScrollView>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/details_fragment_reviews_card"
+        style="@style/MovieDetailsCard">
+
+        <LinearLayout
+            android:id="@+id/details_fragment_reviews_layout"
+            style="@style/CardLayout">
+
+            <TextView
+                style="@style/CardHeaderText"
+                android:text="@string/details_fragment_reviews_header" />
+            <View style="@style/CardHeaderDivider" />
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

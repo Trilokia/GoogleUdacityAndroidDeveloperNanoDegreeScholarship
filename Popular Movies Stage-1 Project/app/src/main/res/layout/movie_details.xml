@@ -63,7 +63,8 @@
 
 
 
-        <android.support.v7.widget.CardView style="@style/MovieDetailsCard">
+        <android.support.v7.widget.CardView
+            style="@style/MovieDetailsCard">
 
             <LinearLayout style="@style/CardLayout">
 

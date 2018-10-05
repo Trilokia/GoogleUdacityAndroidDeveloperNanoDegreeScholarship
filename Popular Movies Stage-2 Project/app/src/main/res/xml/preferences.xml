@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:key="MyUserName"
+        android:defaultValue="Guest"
+        android:title="My Username"/>
+
+    <EditTextPreference
+        android:key="MyKey"
+        android:defaultValue="5d1a570fcf3614050114100384035b8c"
+        android:title="IMDB Key"/>
+
+    <ListPreference
+        android:defaultValue="@string/pref_discover_sort_popular_value"
+        android:entries="@array/pref_discover_sort_option_labels"
+        android:entryValues="@array/pref_discover_sort_option_keys"
+        android:key="@string/pref_discover_sort_key"
+        android:title="@string/pref_discover_sort_label" />
+
+    <ListPreference
+        android:defaultValue="@string/pref_favourites_sort_recent_value"
+        android:entries="@array/pref_favourites_sort_option_labels"
+        android:entryValues="@array/pref_favourites_sort_option_keys"
+        android:key="@string/pref_favourites_sort_key"
+        android:title="@string/pref_favourites_sort_label" />
+
+    <ListPreference
+        android:defaultValue="@string/pref_language_english_value"
+        android:entries="@array/pref_language_labels"
+        android:entryValues="@array/pref_language_keys"
+        android:key="@string/pref_language_key"
+        android:title="@string/pref_language_label" />
+
+
+
+</PreferenceScreen>

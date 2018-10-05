@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimaryLight"
+    style="@style/LinearLayoutVerticalBase">
+    <inc.trilokia.popularmovies_2.loading.LoadingView
+        android:id="@+id/list_fragment_imageview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:paddingBottom="150dp"
+        android:background="@color/colorPrimaryLight"
+        app:loading_renderer="DayNightLoadingRenderer"/>
+    <TextView
+        android:id="@+id/list_fragment_list_notification"
+        style="@style/TextViewNotificationBase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="50dp"
+        android:text="@string/notification_list_base" />
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/list_fragment_swipe_refresh"
+        style="@style/CardViewBase">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/list_fragment_recycler_view"
+            style="@style/CardViewBase" />
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</RelativeLayout>
+

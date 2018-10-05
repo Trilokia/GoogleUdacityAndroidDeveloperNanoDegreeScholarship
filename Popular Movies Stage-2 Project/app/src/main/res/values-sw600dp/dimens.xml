@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- activity_movie_details Dimens -->
+    <dimen name="details_activity_app_bar_height">360dp</dimen>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list_activity_drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activities.MovieListActivity">
+
+    <LinearLayout style="@style/LinearLayoutVerticalBase">
+
+        <android.support.design.widget.AppBarLayout style="@style/AppBarBase">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/list_activity_toolbar"
+                style="@style/ToolbarBase" />
+
+        </android.support.design.widget.AppBarLayout>
+
+        <LinearLayout style="@style/LinearLayoutHorizontalBase">
+
+            <LinearLayout
+                android:id="@+id/list_activity_list_container"
+                style="@style/ListActivityListContainer" />
+
+            <TextView
+                android:id="@+id/list_activity_details_notification"
+                style="@style/ListActivityDetailsNotification"
+                android:layout_weight="1" />
+
+            <ScrollView
+                android:id="@+id/list_activity_details_scroll_view"
+                style="@style/ListActivityDetailsScrollView">
+
+                <LinearLayout
+                    android:id="@+id/list_activity_details_container"
+                    style="@style/DetailsActivityDetailsContainer" />
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <android.support.design.widget.NavigationView
+
+        android:id="@+id/list_activity_nav_view"
+        android:background="@color/colorPrimaryLight"
+        style="@style/NavigationViewBase"
+        app:headerLayout="@layout/nav_header_layout"
+        app:menu="@menu/menu_navigation_drawer"/>
+
+</android.support.v4.widget.DrawerLayout>

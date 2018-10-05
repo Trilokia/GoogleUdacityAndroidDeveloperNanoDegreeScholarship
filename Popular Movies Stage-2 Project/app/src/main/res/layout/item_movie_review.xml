@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ReviewItemLayout">
+
+    <TextView
+        android:id="@+id/review_item_author"
+        style="@style/ReviewItemTextPrimary" />
+
+    <inc.trilokia.popularmovies_2.ui.views.ExpandableTextView
+        android:id="@+id/review_item_content"
+        style="@style/ReviewItemTextSupporting" />
+
+    <View style="@style/ReviewItemDivider" />
+
+</LinearLayout>

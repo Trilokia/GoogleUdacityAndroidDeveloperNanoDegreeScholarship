@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="navigation_drawer_action_labels">
+        <item>@string/action_discover_label</item>
+        <item>@string/action_search_label</item>
+        <item>@string/action_favourites_label</item>
+    </array>
+
+    <array name="pref_discover_sort_option_labels">
+        <item>@string/pref_discover_sort_popular_label</item>
+        <item>@string/pref_discover_sort_rating_label</item>
+    </array>
+
+    <array name="pref_discover_sort_option_keys">
+        <item>@string/pref_discover_sort_popular_value</item>
+        <item>@string/pref_discover_sort_rating_value</item>
+    </array>
+
+    <array name="pref_favourites_sort_option_labels">
+        <item>@string/pref_favourites_sort_recent_label</item>
+        <item>@string/pref_favourites_sort_title_label</item>
+        <item>@string/pref_favourites_sort_release_label</item>
+    </array>
+
+    <array name="pref_favourites_sort_option_keys">
+        <item>@string/pref_favourites_sort_recent_value</item>
+        <item>@string/pref_favourites_sort_title_value</item>
+        <item>@string/pref_favourites_sort_release_value</item>
+    </array>
+
+    <array name="pref_language_labels">
+        <item>@string/pref_language_english_label</item>
+        <item>@string/pref_language_hindi_label</item>
+    </array>
+
+    <array name="pref_language_keys">
+        <item>@string/pref_language_english_value</item>
+        <item>@string/pref_language_hindi_value</item>
+    </array>
+</resources>
