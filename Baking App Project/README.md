@@ -28,39 +28,7 @@
 
 
 <!-- Please don't remove this: Grab your social icons from https://github.com/carlsednaoui/gitsocial -->
-# Popular Movies Stage-2 Project
+# Baking App Project
 
-## Project Overview
-Most of us can relate to kicking back on the couch and enjoying a movie with friends and family. In this project, you’ll build an app to allow users to discover the most popular movies playing. 
-
-## Common Project Requirements
-![](https://ppxdev.files.wordpress.com/2018/10/pmab11.png)
-
-## User Interface - Function
-![](https://ppxdev.files.wordpress.com/2018/10/pmab21.png)
-
-## Network API Implementation
-![](https://ppxdev.files.wordpress.com/2018/10/pmab31.png)
-
-## General Project Guidelines
-![](https://ppxdev.files.wordpress.com/2018/10/pmab41.png)
-
-## User Interface - Function
-![](https://ppxdev.files.wordpress.com/2018/10/pmab5.png)
-
-## Network API Implementation
-![](https://ppxdev.files.wordpress.com/2018/10/pmab6.png)
-
-##General Project Guidelines
-![](https://ppxdev.files.wordpress.com/2018/10/pmab7.png)
-
-## Screenshot
-![](https://ppxdev.files.wordpress.com/2018/10/pmas21.png)
-
-## Features
-Its secret, You have to see it yourself.
-
-## Review
-![](https://ppxdev.files.wordpress.com/2018/10/pmab8.png)
 
 >Thanks

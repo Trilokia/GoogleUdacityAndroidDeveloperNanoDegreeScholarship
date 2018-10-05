@@ -34,18 +34,19 @@
 In this project, you will complete the **Sandwich Club** app to
 show the details of each sandwich once it is selected.
 
-##Common Project Requirements
+## Common Project Requirements
 ![](https://ppxdev.files.wordpress.com/2018/10/scp11.png)
 
-##Core Functionality
+## Core Functionality
 ![](https://ppxdev.files.wordpress.com/2018/10/scp2.png)
 
-##Screenshot
+## Screenshot
 ![](https://ppxdev.files.wordpress.com/2018/10/scp1.png)
 
-##Features
+## Features
 Its secret, You have to see it yourself.
-##Review
+
+## Review
 ![](https://ppxdev.files.wordpress.com/2018/10/scp3.png)
 
 >Thanks

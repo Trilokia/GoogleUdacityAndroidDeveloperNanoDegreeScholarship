@@ -29,14 +29,14 @@
 
 <!-- Please don't remove this: Grab your social icons from https://github.com/carlsednaoui/gitsocial -->
 ![](https://ppxdev.files.wordpress.com/2018/10/github.png)
-###Acknowledgement
+### Acknowledgement
 - I would like to thank **Google** and **Udacity** for* providing me this opportunity.*
 - Also, I would like to thank **Akshit Jain Sir** and **Saif Ali Shaik** Sir for holding *amazing AMA session and guiding us through out the course. *
 - Last but not the least, I want to thanks to my **mentor, friends & all the members of Slack Community** for *helping me and making this journey unforgettable*.
 
 > Fun Fact: Only 200 candidates (from all over India) is selected for this android developer nanodegree & I'm one of them :)
 
-##Projects
+## Projects
 
 *This Repository contains all the android projects work, included in the** Android Developer Nanodegree***
 [Sandwich Club: Demo Project](https://github.com/Trilokia/GoogleUdacityAndroidDeveloperNanoDegreeScholarship/tree/master/Sandwich%20Club%20Project/"Sandwich Club Project")
@@ -45,7 +45,7 @@
 [More project is coming soon](http://localhost/ "link title")
 
 
-###Result & Achievements
+### Result & Achievements
 I have **learned many things **from this nanodegree & I try to **implement it in my projects**.
 - [PUB Gfx+ Tool🔧:#1 GFX Tool(with advance settings) ](https://play.google.com/store/apps/details?id=inc.trilokia.pubgfxtool "PUB Gfx+ Tool🔧:#1 GFX Tool(with advance settings)"): Currently ranked **no 1 paid tool app(listed in 25+ countries) **on Google Play store, Total Downloads:**500+ Thousand** (Including [Free Version ](https://play.google.com/store/apps/details?id=inc.trilokia.pubgfxtool.free "Free Version") and [XDA version ](https://labs.xda-developers.com/store/app/inc.trilokia.pubgfxtool.free" XDA Version") )
 
@@ -54,7 +54,7 @@ I have **learned many things **from this nanodegree & I try to **implement it in
 
 - [	Sikhs4all Foundation : Official App ](https://play.google.com/store/apps/details?id=inc.trilokia.eyeuse"Sikhs4all Foundation : Official App"): **Reached ranked no 100 new social app(listed in 2+ countries) **on Google Play store, Total Downloads: 100+
 
-###My Work Flow
+### My Work Flow
 ```flow
 st=>start: Code
 op=>operation: Debug
@@ -65,10 +65,11 @@ st->op->cond
 cond(yes)->e
 cond(no)->op
 ```
-###Credits
+
+### Credits
 Yet to update :)
 
-###License
+### License
 Copyright 2018 Abhinandan Trilokia  Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
 http://www.apache.org/licenses/LICENSE-2.0

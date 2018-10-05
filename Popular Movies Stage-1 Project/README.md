@@ -33,23 +33,24 @@
 ## Project Overview
 Most of us can relate to kicking back on the couch and enjoying a movie with friends and family. In this project, you’ll build an app to allow users to discover the most popular movies playing. 
 
-##Common Project Requirements
+## Common Project Requirements
 ![](https://ppxdev.files.wordpress.com/2018/10/pmaa11.png)
 
-##User Interface - Function
+## User Interface - Function
 ![](https://ppxdev.files.wordpress.com/2018/10/pmaa21.png)
 
-##Network API Implementation
+## Network API Implementation
 ![](https://ppxdev.files.wordpress.com/2018/10/pmaa31.png)
 
-##General Project Guidelines
+## General Project Guidelines
 ![](https://ppxdev.files.wordpress.com/2018/10/pmaa41.png)
-##Screenshot
+## Screenshot
 ![](https://ppxdev.files.wordpress.com/2018/10/pmas11.png)
 
-##Features
+## Features
 Its secret, You have to see it yourself.
-##Review
+
+## Review
 ![](https://ppxdev.files.wordpress.com/2018/10/pmaa51.png)
 
 >Thanks
