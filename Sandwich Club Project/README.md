@@ -29,6 +29,7 @@
 
 <!-- Please don't remove this: Grab your social icons from https://github.com/carlsednaoui/gitsocial -->
 # Sandwich Club Project Starter Code
+![](https://ppxdev.files.wordpress.com/2018/10/scp1.png)
 
 ## Project Overview
 In this project, you will complete the **Sandwich Club** app to
@@ -39,9 +40,6 @@ show the details of each sandwich once it is selected.
 
 ## Core Functionality
 ![](https://ppxdev.files.wordpress.com/2018/10/scp2.png)
-
-## Screenshot
-![](https://ppxdev.files.wordpress.com/2018/10/scp1.png)
 
 ## Features
 Its secret, You have to see it yourself.
