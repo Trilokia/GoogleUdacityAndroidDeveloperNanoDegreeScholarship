@@ -44,7 +44,7 @@
 
 [Popular Movies: Stage-1 Project](https://github.com/Trilokia/GoogleUdacityAndroidDeveloperNanoDegreeScholarship/tree/master/Popular%20Movies%20Stage-1%20Project/"Popular Movies Stage-1 Project")
 
-[Popular Movies: Stage-2 Project](https://github.com/Trilokia/GoogleUdacityAndroidDeveloperNanoDegreeScholarship/tree/master/Popular%20Movies%20Stage-2%20Project/ "Popular Movies Stage-2 Project")
+[Popular Movies: Stage-2 Project](https://github.com/Trilokia/GoogleUdacityAndroidDeveloperNanoDegreeScholarship/tree/master/Popular%20Movies%20Stage-2%20Project/"Popular Movies Stage-2 Project")
 
 [More project is coming soon](http://localhost/ "link title")
 
