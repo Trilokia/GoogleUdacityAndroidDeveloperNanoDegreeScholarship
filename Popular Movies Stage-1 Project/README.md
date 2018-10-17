@@ -10,12 +10,11 @@
 
 <!-- icons with padding -->
 
-[1.1]: http://i.imgur.com/tXSoThF.png (twitter icon with padding)
-[2.1]: http://i.imgur.com/P3YfQoD.png (facebook icon with padding)
-[3.1]: http://i.imgur.com/yCsTjba.png (google plus icon with padding)
-[4.1]: https://ppxdev.files.wordpress.com/2018/10/aln.png (tumblr icon with padding)
-[5.1]: http://i.imgur.com/0o48UoR.png (github icon with padding)
-
+[1.1]: http://i.imgur.com/tXSoThF.png (Twitter)
+[2.1]: http://i.imgur.com/P3YfQoD.png (Facebook)
+[3.1]: http://i.imgur.com/yCsTjba.png (Google+)
+[4.1]: https://ppxdev.files.wordpress.com/2018/10/ln.png (Linkedin)
+[5.1]: http://i.imgur.com/0o48UoR.png (Github)
 
 <!-- links to your social media accounts -->
 <!-- update these accordingly -->

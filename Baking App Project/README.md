@@ -10,12 +10,11 @@
 
 <!-- icons with padding -->
 
-[1.1]: http://i.imgur.com/tXSoThF.png (twitter icon with padding)
-[2.1]: http://i.imgur.com/P3YfQoD.png (facebook icon with padding)
-[3.1]: http://i.imgur.com/yCsTjba.png (google plus icon with padding)
-[4.1]: https://ppxdev.files.wordpress.com/2018/10/aln.png (tumblr icon with padding)
-[5.1]: http://i.imgur.com/0o48UoR.png (github icon with padding)
-
+[1.1]: http://i.imgur.com/tXSoThF.png (Twitter)
+[2.1]: http://i.imgur.com/P3YfQoD.png (Facebook)
+[3.1]: http://i.imgur.com/yCsTjba.png (Google+)
+[4.1]: https://ppxdev.files.wordpress.com/2018/10/ln.png (Linkedin)
+[5.1]: http://i.imgur.com/0o48UoR.png (Github)
 
 <!-- links to your social media accounts -->
 <!-- update these accordingly -->
@@ -28,7 +27,27 @@
 
 
 <!-- Please don't remove this: Grab your social icons from https://github.com/carlsednaoui/gitsocial -->
-# Baking App Project
+# Make A Baking App
+![](https://ppxdev.files.wordpress.com/2018/10/ba.png)
 
+## Project Overview
+You will productionize an app, taking it from a functional state to a production-ready state. This will involve finding and handling error cases, adding accessibility features, allowing for localization, adding a widget, and adding a library.
+
+##Common Project Requirements
+![](https://ppxdev.files.wordpress.com/2018/10/ba1.png)
+
+##General App Usage
+![](https://ppxdev.files.wordpress.com/2018/10/ba2.png)
+
+##Components and Libraries
+![](https://ppxdev.files.wordpress.com/2018/10/ba3.png)
+
+##Homescreen Widget
+![](https://ppxdev.files.wordpress.com/2018/10/ba4.png)
+
+##Features
+Its secret, You have to see it yourself.
+##Review
+![](https://ppxdev.files.wordpress.com/2018/10/ba5.png)
 
 >Thanks

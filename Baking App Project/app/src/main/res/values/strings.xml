@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">Baking App</string>
+    <string name="recipe_ingredient">%d ingredients</string>
+    <string name="recipe_step">%d steps</string>
+    <string name="recipe_serving">Servings</string>
+    <string name="nav_prev_step">Prev Step</string>
+    <string name="nav_next_step">Next Step</string>
+    <string name="main_progress_title">Please Wait</string>
+    <string name="main_error_title">Hmmm, No Internet :(</string>
+    <string name="title">Title</string>
+    <string name="ingredient">Ingredient</string>
+    <string name="step">Step</string>
+    <string name="servings">Servings</string>
+    <string name="ingredients">Ingredients :</string>
+    <string name="steps">Steps :</string>
+    <string name="add_widget">Add widget</string>
+    <string name="error_adding_widget">Hmm, Error.</string>
+    <string name="widget_ingredients_title">Ingredients of %s</string>
 </resources>
