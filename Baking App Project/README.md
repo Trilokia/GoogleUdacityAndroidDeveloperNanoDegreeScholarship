@@ -27,7 +27,7 @@
 
 
 <!-- Please don't remove this: Grab your social icons from https://github.com/carlsednaoui/gitsocial -->
-# Make A Baking App
+# Baking App Project
 ![](https://ppxdev.files.wordpress.com/2018/10/ba.png)
 
 ## Project Overview
