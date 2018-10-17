@@ -46,6 +46,12 @@
 
 [Popular Movies: Stage-2 Project](https://github.com/Trilokia/GoogleUdacityAndroidDeveloperNanoDegreeScholarship/tree/master/Popular%20Movies%20Stage-2%20Project/"Popular Movies Stage-2 Project")
 
+[Baking App Project](https://github.com/Trilokia/GoogleUdacityAndroidDeveloperNanoDegreeScholarship/tree/master/Baking%20App%20Project/"Baking App Project")
+
+[Build It Bigger Project](https://github.com/Trilokia/GoogleUdacityAndroidDeveloperNanoDegreeScholarship/tree/master/Build%20It%20Bigger%20Project/"Build It Bigger Project")
+
+[Make Your App Material Project](https://github.com/Trilokia/GoogleUdacityAndroidDeveloperNanoDegreeScholarship/tree/master/Make%20Your%20App%20Material%20Project/"Make Your App Material Project")
+
 [More project is coming soon](http://localhost/ "link title")
 
 

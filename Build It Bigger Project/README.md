@@ -33,18 +33,19 @@
 ## Project Overview
 In this project, you will use Gradle to build a joke-telling app, factoring functionality into libraries and flavors to keep the build simple. You'll also configure a Google Cloud Endpoints development server to supply the jokes.
 
-##Common Project Requirements
+## Common Project Requirements
 ![](https://ppxdev.files.wordpress.com/2018/10/bib1.png)
 
-##Required Components
+## Required Components
 ![](https://ppxdev.files.wordpress.com/2018/10/bib2.png)
 
-##Required Behavior
+## Required Behavior
 ![](https://ppxdev.files.wordpress.com/2018/10/bib3.png)
 
-##Features
+## Features
 Its secret, You have to see it yourself.
-##Review
+
+## Review
 ![](https://ppxdev.files.wordpress.com/2018/10/bib4.png)
 
 >Thanks

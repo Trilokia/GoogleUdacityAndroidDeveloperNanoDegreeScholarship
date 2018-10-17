@@ -33,12 +33,13 @@
 ## Project Overview
 In this project, you will redesign an app to follow the Material Design guidelines and translate a set of static design mocks to a living and breathing app.
 
-##Required Behavior
+## Required Behavior
 ![](https://ppxdev.files.wordpress.com/2018/10/myam1.png)
 
-##Features
+## Features
 Its secret, You have to see it yourself.
-##Review
+
+## Review
 ![](https://ppxdev.files.wordpress.com/2018/10/myam2.png)
 
 >Thanks

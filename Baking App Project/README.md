@@ -33,21 +33,22 @@
 ## Project Overview
 You will productionize an app, taking it from a functional state to a production-ready state. This will involve finding and handling error cases, adding accessibility features, allowing for localization, adding a widget, and adding a library.
 
-##Common Project Requirements
+## Common Project Requirements
 ![](https://ppxdev.files.wordpress.com/2018/10/ba1.png)
 
-##General App Usage
+## General App Usage
 ![](https://ppxdev.files.wordpress.com/2018/10/ba2.png)
 
-##Components and Libraries
+## Components and Libraries
 ![](https://ppxdev.files.wordpress.com/2018/10/ba3.png)
 
-##Homescreen Widget
+## Homescreen Widget
 ![](https://ppxdev.files.wordpress.com/2018/10/ba4.png)
 
-##Features
+## Features
 Its secret, You have to see it yourself.
-##Review
+
+## Review
 ![](https://ppxdev.files.wordpress.com/2018/10/ba5.png)
 
 >Thanks
