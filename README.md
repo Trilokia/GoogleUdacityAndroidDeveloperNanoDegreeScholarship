@@ -13,7 +13,7 @@
 [1.1]: http://i.imgur.com/tXSoThF.png (Twitter)
 [2.1]: http://i.imgur.com/P3YfQoD.png (Facebook)
 [3.1]: http://i.imgur.com/yCsTjba.png (Google+)
-[4.1]: https://ppxdev.files.wordpress.com/2018/10/ln.png (Linkedin)
+[4.1]: https://ppxdev.files.wordpress.com/2018/10/aln.png (Linkedin)
 [5.1]: http://i.imgur.com/0o48UoR.png (Github)
 
 
@@ -28,7 +28,7 @@
 
 
 <!-- Please don't remove this: Grab your social icons from https://github.com/carlsednaoui/gitsocial -->
-![](https://ppxdev.files.wordpress.com/2018/10/github.png)
+![](https://ppxdev.files.wordpress.com/2018/10/githubn.png)
 ### Acknowledgement
 - I would like to thank **Google** and **Udacity** for* providing me this opportunity.*
 - Also, I would like to thank **Akshit Jain Sir** and **Saif Ali Shaik** Sir for holding *amazing AMA session and guiding us through out the course. *

@@ -13,7 +13,7 @@
 [1.1]: http://i.imgur.com/tXSoThF.png (Twitter)
 [2.1]: http://i.imgur.com/P3YfQoD.png (Facebook)
 [3.1]: http://i.imgur.com/yCsTjba.png (Google+)
-[4.1]: https://ppxdev.files.wordpress.com/2018/10/ln.png (Linkedin)
+[4.1]: https://ppxdev.files.wordpress.com/2018/10/aln.png (Linkedin)
 [5.1]: http://i.imgur.com/0o48UoR.png (Github)
 
 <!-- links to your social media accounts -->
@@ -28,7 +28,7 @@
 
 <!-- Please don't remove this: Grab your social icons from https://github.com/carlsednaoui/gitsocial -->
 # Baking App Project
-![](https://ppxdev.files.wordpress.com/2018/10/ba.png)
+![](https://ppxdev.files.wordpress.com/2018/10/ban.png)
 
 ## Project Overview
 You will productionize an app, taking it from a functional state to a production-ready state. This will involve finding and handling error cases, adding accessibility features, allowing for localization, adding a widget, and adding a library.

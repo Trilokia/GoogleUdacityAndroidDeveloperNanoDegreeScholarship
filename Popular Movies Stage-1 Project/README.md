@@ -13,7 +13,7 @@
 [1.1]: http://i.imgur.com/tXSoThF.png (Twitter)
 [2.1]: http://i.imgur.com/P3YfQoD.png (Facebook)
 [3.1]: http://i.imgur.com/yCsTjba.png (Google+)
-[4.1]: https://ppxdev.files.wordpress.com/2018/10/ln.png (Linkedin)
+[4.1]: https://ppxdev.files.wordpress.com/2018/10/aln.png (Linkedin)
 [5.1]: http://i.imgur.com/0o48UoR.png (Github)
 
 <!-- links to your social media accounts -->
@@ -28,10 +28,10 @@
 
 <!-- Please don't remove this: Grab your social icons from https://github.com/carlsednaoui/gitsocial -->
 # Popular Movies Stage-1 Project
-![](https://ppxdev.files.wordpress.com/2018/10/pmas11.png)
+![](https://ppxdev.files.wordpress.com/2018/10/pmas11n.png)
 
 ## Project Overview
-Most of us can relate to kicking back on the couch and enjoying a movie with friends and family. In this project, you’ll build an app to allow users to discover the most popular movies playing. 
+Most of us can relate to kicking back on the couch and enjoying a movie with friends and family. In this project, you’ll build an app to allow users to discover the most popular movies playing.
 
 ## Common Project Requirements
 ![](https://ppxdev.files.wordpress.com/2018/10/pmaa11.png)

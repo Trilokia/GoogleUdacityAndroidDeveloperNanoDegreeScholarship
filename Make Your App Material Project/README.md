@@ -13,7 +13,7 @@
 [1.1]: http://i.imgur.com/tXSoThF.png (Twitter)
 [2.1]: http://i.imgur.com/P3YfQoD.png (Facebook)
 [3.1]: http://i.imgur.com/yCsTjba.png (Google+)
-[4.1]: https://ppxdev.files.wordpress.com/2018/10/ln.png (Linkedin)
+[4.1]: https://ppxdev.files.wordpress.com/2018/10/aln.png (Linkedin)
 [5.1]: http://i.imgur.com/0o48UoR.png (Github)
 
 <!-- links to your social media accounts -->
@@ -28,7 +28,7 @@
 
 <!-- Please don't remove this: Grab your social icons from https://github.com/carlsednaoui/gitsocial -->
 # Make Your App Material
-![](https://ppxdev.files.wordpress.com/2018/10/myam.png)
+![](https://ppxdev.files.wordpress.com/2018/10/myamn.png)
 
 ## Project Overview
 In this project, you will redesign an app to follow the Material Design guidelines and translate a set of static design mocks to a living and breathing app.
