@@ -28,7 +28,7 @@
 
 <!-- Please don't remove this: Grab your social icons from https://github.com/carlsednaoui/gitsocial -->
 # Popular Movies Stage-1 Project
-![](https://ppxdev.files.wordpress.com/2018/10/pmas11n.png)
+![](https://ppxdev.files.wordpress.com/2018/10/pmas1n.png)
 
 ## Project Overview
 Most of us can relate to kicking back on the couch and enjoying a movie with friends and family. In this project, you’ll build an app to allow users to discover the most popular movies playing.
