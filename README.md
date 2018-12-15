@@ -52,6 +52,8 @@
 
 [Make Your App Material Project](https://github.com/Trilokia/GoogleUdacityAndroidDeveloperNanoDegreeScholarship/tree/master/Make%20Your%20App%20Material%20Project "Make Your App Material Project")
 
+[Free My Way- FMW: Capstone Project](https://github.com/Trilokia/GoogleUdacityAndroidDeveloperNanoDegreeScholarship/tree/master/FMW%20Free%20my%20way:%20Capstone%20Project "Free My Way- FMW: Capstone Project")
+
 [More project is coming soon](http://localhost/ "link title")
 
 
@@ -59,10 +61,13 @@
 I have **learned many things **from this nanodegree & I try to **implement it in my projects**.
 - [PUB Gfx+ Tool🔧:#1 GFX Tool(with advance settings) ](https://play.google.com/store/apps/details?id=inc.trilokia.pubgfxtool "PUB Gfx+ Tool🔧:#1 GFX Tool(with advance settings)"): Currently ranked **no 1 paid tool app(listed in 25+ countries) **on Google Play store, Total Downloads:**500+ Thousand** (Including [Free Version ](https://play.google.com/store/apps/details?id=inc.trilokia.pubgfxtool.free "Free Version") and [XDA version ](https://labs.xda-developers.com/store/app/inc.trilokia.pubgfxtool.free" XDA Version") )
 
-- [InfinityDisplay PRO: 3D Curved Display Simulator ](https://play.google.com/store/apps/details?id=inc.trilokia.infinitydisplay.activedisplay.pro"	InfinityDisplay PRO: 3D Curved Display Simulator"): Reached **ranked no 1 paid personalization app**(listed in 5+ countries) on Google Play store, Total Downloads:** 200+ Thousand** (Including [Free Version](https://play.google.com/store/apps/details?id=inc.trilokia.infinitydisplay.activedisplay.free"	Free Version"))
-- [EyeUse - Blue Light Protector ](https://play.google.com/store/apps/details?id=inc.trilokia.eyeuse"EyeUse - Blue Light Protector"): Reached **ranked no 100 health & fitness app(listed in 2+ countries)** on Google Play store, Total Downloads: 10+ Thousand
+- [Free My Way: Enjoy your ride 🚗 (FMW) ](https://play.google.com/store/apps/details?id=inc.trilokia.freemyway&hl=en_IN "Free My Way: Enjoy your ride 🚗 (FMW)"): Reached **ranked no 49 new free app** on Google Play store, Total Downloads: 10+
 
-- [	Sikhs4all Foundation : Official App ](https://play.google.com/store/apps/details?id=inc.trilokia.eyeuse"Sikhs4all Foundation : Official App"): **Reached ranked no 100 new social app(listed in 2+ countries) **on Google Play store, Total Downloads: 100+
+- [InfinityDisplay PRO: 3D Curved Display Simulator ](https://play.google.com/store/apps/details?id=inc.trilokia.infinitydisplay.activedisplay.pro 	"InfinityDisplay PRO: 3D Curved Display Simulator"): Reached **ranked no 1 paid personalization app**(listed in 5+ countries) on Google Play store, Total Downloads:** 200+ Thousand** (Including [Free Version](https://play.google.com/store/apps/details?id=inc.trilokia.infinitydisplay.activedisplay.free	"Free Version"))
+
+- [EyeUse - Blue Light Protector ](https://play.google.com/store/apps/details?id=inc.trilokia.eyeuse "EyeUse - Blue Light Protector"): Reached **ranked no 100 health & fitness app(listed in 2+ countries)** on Google Play store, Total Downloads: 10+ Thousand
+
+- [	Sikhs4all Foundation : Official App ](https://play.google.com/store/apps/details?id=inc.trilokia.eyeuse "Sikhs4all Foundation : Official App"): **Reached ranked no 100 new social app(listed in 2+ countries) **on Google Play store, Total Downloads: 100+
 
 ### My Work Flow
 ```flow
