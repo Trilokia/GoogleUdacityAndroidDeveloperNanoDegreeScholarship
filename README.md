@@ -59,7 +59,7 @@
 
 ### Result & Achievements
 I have **learned many things **from this nanodegree & I try to **implement it in my projects**.
-- [PUB Gfx+ Tool🔧:#1 GFX Tool(with advance settings) ](https://play.google.com/store/apps/details?id=inc.trilokia.pubgfxtool "PUB Gfx+ Tool🔧:#1 GFX Tool(with advance settings)"): Currently ranked **no 1 paid tool app(listed in 25+ countries) **on Google Play store, Total Downloads:**500+ Thousand** (Including [Free Version ](https://play.google.com/store/apps/details?id=inc.trilokia.pubgfxtool.free "Free Version") and [XDA version ](https://labs.xda-developers.com/store/app/inc.trilokia.pubgfxtool.free" XDA Version") )
+- [PUB Gfx+ Tool🔧:#1 GFX Tool(with advance settings) ](https://play.google.com/store/apps/details?id=inc.trilokia.pubgfxtool "PUB Gfx+ Tool🔧:#1 GFX Tool(with advance settings)"): Currently ranked **no 1 paid tool app(listed in 25+ countries) **on Google Play store, Total Downloads:**500+ Thousand** (Including [Free Version ](https://play.google.com/store/apps/details?id=inc.trilokia.pubgfxtool.free "Free Version") and [XDA version ](https://labs.xda-developers.com/store/app/inc.trilokia.pubgfxtool.free "XDA Version") )
 
 - [Free My Way: Enjoy your ride 🚗 (FMW) ](https://play.google.com/store/apps/details?id=inc.trilokia.freemyway&hl=en_IN "Free My Way: Enjoy your ride 🚗 (FMW)"): Reached **ranked no 49 new free app** on Google Play store, Total Downloads: 10+
 
