@@ -31,8 +31,8 @@
 # Free My Way - FMW: Capstone Project
 ![](https://ppxdev.files.wordpress.com/2018/12/cp0.png)
 
-![](https://ppxdev.files.wordpress.com/2018/12/intro.gif)![](https://ppxdev.files.wordpress.com/2018/12/main.gif)![](https://ppxdev.files.wordpress.com/2018/12/scan.gif)
-![](https://ppxdev.files.wordpress.com/2018/12/guest.gif)![](https://ppxdev.files.wordpress.com/2018/12/call.gif)![](https://ppxdev.files.wordpress.com/2018/12/extra.gif)
+![](https://ppxdev.files.wordpress.com/2018/12/intro.gif =480x800)![](https://ppxdev.files.wordpress.com/2018/12/main.gif =480x800)![](https://ppxdev.files.wordpress.com/2018/12/scan.gif =480x800)
+![](https://ppxdev.files.wordpress.com/2018/12/guest.gif =480x800)![](https://ppxdev.files.wordpress.com/2018/12/call.gif =480x800)![](https://ppxdev.files.wordpress.com/2018/12/extra.gif =480x800)
 
 ## Project Overview: Google Play Description (For more info please see attached pdf file)
 This app is inspired from the Google Play social impact apps✔️ through this app we want to solve one the of most common issue faced by all of us i.e. congestion or blocked road because of wrong parked vehicle✖️.
