@@ -28,7 +28,7 @@
 
 <!-- Please don't remove this: Grab your social icons from https://github.com/carlsednaoui/gitsocial -->
 # Sandwich Club Project Starter Code
-![](https://ppxdev.files.wordpress.com/2018/10/scp1n.png)
+![](https://ppxdev.files.wordpress.com/2018/10/scpn.png)
 
 ## Project Overview
 In this project, you will complete the **Sandwich Club** app to

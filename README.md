@@ -34,7 +34,7 @@
 - Also, I would like to thank **Akshit Jain Sir** and **Saif Ali Shaik** Sir for holding *amazing AMA session and guiding us through out the course. *
 - Last but not the least, I want to thanks to my **mentor, friends & all the members of Slack Community** for *helping me and making this journey unforgettable*.
 
-> Fun Fact: Only 200 candidates (from all over India) is selected for this android developer nanodegree & I'm one of them :)
+> Fun Fact: Only 150 candidates (from all over India) is selected for this android developer nanodegree & I'm one of them :)
 
 ## Projects
 
