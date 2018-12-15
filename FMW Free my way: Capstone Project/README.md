@@ -31,8 +31,7 @@
 # Free My Way - FMW: Capstone Project
 ![](https://ppxdev.files.wordpress.com/2018/12/cp0.png)
 
-<img src="/FMW Free my way: Capstone Project/art/intro.gif?raw=true" width="120" height="200" /><img src="https://github.com/Trilokia/GoogleUdacityAndroidDeveloperNanoDegreeScholarship/blob/master/FMW%20Free%20my%20way:%20Capstone%20Project/main.gif?raw=true" width="120" height="200" /><img src="/art/scan.gif?raw=true" width="120" height="200" />
-<img src="/art/guest.gif?raw=true"" width="120" height="200" /><img src="/art/call.gif?raw=true"" width="120" height="200" /><img src="/art/extra.gif?raw=true"" width="120" height="200" />
+<img src="/FMW Free my way: Capstone Project/art/intro.gif?raw=true" width="120" height="200" /><img src=/FMW Free my way: Capstone Project/main.gif?raw=true" width="120" height="200" /><img src=/FMW Free my way: Capstone Project/art/scan.gif?raw=true" width="120" height="200" /><img src=/FMW Free my way: Capstone Project/art/guest.gif?raw=true" width="120" height="200" /><img src=/FMW Free my way: Capstone Project/art/call.gif?raw=true width="120" height="200" /><img src="/FMW Free my way: Capstone Project/art/extra.gif?raw=true width="120" height="200" />
 
 ## Project Overview: Google Play Description (For more info please see attached pdf file)
 This app is inspired from the Google Play social impact apps✔️ through this app we want to solve one the of most common issue faced by all of us i.e. congestion or blocked road because of wrong parked vehicle✖️.
