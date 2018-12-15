@@ -31,7 +31,7 @@
 # Free My Way - FMW: Capstone Project
 ![](https://ppxdev.files.wordpress.com/2018/12/cp0.png)
 
-<img src="/FMW Free my way: Capstone Project/art/intro.gif?raw=true"" width="120" height="200" /><img src="/art/main.gif?raw=true"" width="120" height="200" /><img src="/art/scan.gif?raw=true"" width="120" height="200" />
+<img src="/FMW Free my way: Capstone Project/art/intro.gif?raw=true" width="120" height="200" /><img src="https://github.com/Trilokia/GoogleUdacityAndroidDeveloperNanoDegreeScholarship/blob/master/FMW%20Free%20my%20way:%20Capstone%20Project/main.gif?raw=true" width="120" height="200" /><img src="/art/scan.gif?raw=true" width="120" height="200" />
 <img src="/art/guest.gif?raw=true"" width="120" height="200" /><img src="/art/call.gif?raw=true"" width="120" height="200" /><img src="/art/extra.gif?raw=true"" width="120" height="200" />
 
 ## Project Overview: Google Play Description (For more info please see attached pdf file)
